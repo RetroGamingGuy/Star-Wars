@@ -1,0 +1,119 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+body {
+	background: url("Space.png");
+}
+
+#banner {
+	background: url("Star Wars Banner.png");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-position: center;
+	height: 100px;
+	width:90%;
+	border: 3px solid yellow;
+	background-color:black;
+	padding:30px;
+	margin-bottom:20px;
+}
+h1 {
+	font-family:david;
+	font-size:50px;
+	color:rgb(211, 235, 49);
+	padding:5px;
+	width:60%;
+	margin: 20px auto;
+	text-align: center;
+}
+
+#nav li {
+	list-style: none;
+	display: inline-block;
+	font-family:arial;
+	padding:7px;
+	font-size:20px;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color:rgb(211, 235, 49);
+}
+
+a:hover {
+	color: black;
+	background-color: yellow;
+}
+
+#pic1 {
+	border:3px solid yellow;
+	background-color:black;
+	height: 60%;
+	width:60%;
+	min-height: 100px;
+    min-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+	display: table-cell;
+    vertical-align: middle
+	
+}
+
+#pic2 {
+	border:3px solid yellow;
+	background-color:black;
+	width:40%;
+	float: left;
+	margin: 20px;
+}
+
+#text1 {
+	border: 2px solid yellow;
+	background-color:black;
+	color:rgb(211, 235, 49);
+	float: right;
+	width: 50%;
+	margin-right: 20px;
+	margin-top:20px;
+	padding:10px;
+	height: 360px;
+	font-size: 20px;
+}
+
+#pic4 {
+	border:3px solid yellow;
+	background-color:black;
+	float: right;
+	margin: 20px;
+	width:45%;
+}
+
+#text3 {
+	border: 2px solid yellow;
+	background-color:black;
+	color:rgb(211, 235, 49);
+	float: left;
+	width: 45%;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding:10px;
+	height: 280px;
+	font-size: 20px;
+}
+
+#pic3 {
+	border:3px solid yellow;
+	background-color:black;
+	float: left;
+	margin-left: 200px;
+	margin-top:30px;
+	width:20%;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
